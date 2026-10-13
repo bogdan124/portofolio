@@ -113,10 +113,21 @@
                             <p> As part of a blockchain engineering team, I helped design and implement a scalable multi-chain indexer capable of tracking and serving data from multiple networks(e.g., Ethereum, Arbitrum, Aptos).
                                  I built and maintained the Python-based serve layer from scratch, responsible for exposing indexed blockchain data via REST and gRPC APIs.
                                  The system was structured into two main components:<br/>
+                                <ul>
+                                <li>  
                                 Indexer: handled on-chain data ingestion, event decoding, and block processing using asynchronous Python(Asyncio) and ethers-rs for JSON-RPC connections.<br/>
-                                Serve: made in python, in FastAPI, managed querying, caching, and API delivery, ensuring high performance, fault tolerance, and horizontal scalability.<br/>
-                                Contributed to system architecture and database schema design (PostgreSQL). Ensured production reliability through testing, monitoring, and optimization for large-scale blockchain data.<br/></p>
-
+                                  </li>
+                                <li>
+                                    Serve: made in python, in FastAPI, managed querying, caching, and API delivery, ensuring high performance, fault tolerance, and horizontal scalability.<br/>
+                                   </li>
+                                <li>
+                                    Contributed to system architecture and database schema design (PostgreSQL). Ensured production reliability through testing, monitoring, and optimization for large-scale blockchain data.<br/></p>
+                                </li>
+                                </ul>
+                         <b> Govscan - proposal voting platform </b><br/>
+                               Built in Python, GovScan is a cross-chain proposal tracking platform that indexes governance activity across multiple blockchains.
+ I implemented support for Arbitrum and Ethereum, creating modules to index on-chain events directly from the blockchain to extract proposal creation, voting, and execution data from smart contracts. Used ethers and async to stream and decode event logs via JSON-RPC/WebSocket connections, ensuring real-time updates of governance activity.
+ Integrated the indexed data into a PostgreSQL backend and exposed it through optimized FastAPI endpoints for analytics dashboards and external clients.<br/>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2023 - 2025</span></div>
                     </div>
