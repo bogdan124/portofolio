@@ -128,6 +128,11 @@
                                Built in Python, GovScan is a cross-chain proposal tracking platform that indexes governance activity across multiple blockchains.
  I implemented support for Arbitrum and Ethereum, creating modules to index on-chain events directly from the blockchain to extract proposal creation, voting, and execution data from smart contracts. Used ethers and async to stream and decode event logs via JSON-RPC/WebSocket connections, ensuring real-time updates of governance activity.
  Integrated the indexed data into a PostgreSQL backend and exposed it through optimized FastAPI endpoints for analytics dashboards and external clients.<br/>
+                        
+                         <b>Python Monitoring Exporter</b><br/>
+                            Developed a Python-based monitoring and metrics exporter for Bware Labs’ main RPC infrastructure, enabling real-time performance visibility and reliability tracking. The exporter collected, aggregated, and exposed RPC metrics (latency, uptime, request rate, error rate, etc.) in a standardized format (e.g., Prometheus-compatible endpoints). It integrated with Grafana dashboards and internal observability tools to provide actionable insights and automated alerts for infrastructure reliability, load balancing, and performance optimization.
+                          <b>Python NFT Image Normalization Service </b><br/>
+                            Developed a Python service for automated image normalization across large batches of NFT assets with inconsistent dimensions, formats, and quality. Implemented logic to read and analyze image byte content, detect image type and metadata, and apply custom filters, resizing, and format standardization for optimized on-chain and marketplace display. The system ensured uniform visual quality and metadata consistency across all NFT collections.
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2023 - 2025</span></div>
                     </div>
